@@ -1,0 +1,31 @@
+.form input,
+.form textarea {
+  display: block;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.form textarea {
+  resize: none;
+}
+
+button {
+  margin: 0.5rem;
+}
+
+hr {
+  margin: 1rem;
+}
+
+.removeButton {
+  background: red;
+  color: white;
+  font-weight: bold;
+  display: block;
+  margin: 0 auto;
+}
+
+.addButton {
+  background: rgb(139, 213, 238);
+  font-weight: bold;
+}
