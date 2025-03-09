@@ -19,7 +19,7 @@ function App() {
       id: crypto.randomUUID(),
       schoolName: "The Odin Project",
       study: "Full Stack JavaScript",
-      date: "2025",
+      date: "2025-01-01",
     },
   ]);
   const [experience, setExperience] = useState([
@@ -28,8 +28,8 @@ function App() {
       title: "Developer",
       location: "Self Employed",
       description: "Providing sites and solutions to all types of customers",
-      start: "2024",
-      end: "2025",
+      start: "2024-01-01",
+      end: "2025-01-01",
     },
   ]);
 

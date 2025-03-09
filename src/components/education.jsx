@@ -37,6 +37,7 @@ function Education({ educationData, setEducationData }) {
               type="text"
               value={education.schoolName}
               name="schoolName"
+              id="schoolName"
               onChange={(e) => handleEducationChange(education.id, e)}
             />
           </label>
@@ -46,6 +47,7 @@ function Education({ educationData, setEducationData }) {
               type="text"
               value={education.study}
               name="study"
+              id="study"
               onChange={(e) => handleEducationChange(education.id, e)}
             />
           </label>
@@ -55,6 +57,7 @@ function Education({ educationData, setEducationData }) {
               type="date"
               value={education.date}
               name="date"
+              id="date"
               onChange={(e) => handleEducationChange(education.id, e)}
             />
           </label>

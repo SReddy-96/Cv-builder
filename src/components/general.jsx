@@ -12,17 +12,19 @@ function General({ generalData, setGeneralData }) {
             name="name"
             value={generalData.name}
             autoComplete="name"
+            id="name"
             onChange={(e) =>
               setGeneralData({ ...generalData, name: e.target.value })
             }
           />
         </label>
-        <label htmlFor="location">
+        <label htmlFor="generalLocation">
           Location:
           <input
             type="text"
             value={generalData.location}
             name="location"
+            id="generalLocation"
             onChange={(e) =>
               setGeneralData({ ...generalData, location: e.target.value })
             }
@@ -35,6 +37,7 @@ function General({ generalData, setGeneralData }) {
             value={generalData.email}
             name="email"
             autoComplete="email"
+            id="email"
             onChange={(e) =>
               setGeneralData({ ...generalData, email: e.target.value })
             }
@@ -46,6 +49,7 @@ function General({ generalData, setGeneralData }) {
             type="tel"
             value={generalData.phoneNumber}
             name="phoneNumber"
+            id="phoneNumber"
             onChange={(e) =>
               setGeneralData({ ...generalData, phoneNumber: e.target.value })
             }
@@ -57,6 +61,7 @@ function General({ generalData, setGeneralData }) {
             type="text"
             value={generalData.summary}
             name="summary"
+            id="summary"
             onChange={(e) =>
               setGeneralData({ ...generalData, summary: e.target.value })
             }

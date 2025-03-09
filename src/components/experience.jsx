@@ -41,15 +41,17 @@ function Experience({ experienceData, setExperienceData }) {
               type="text"
               value={experience.title}
               name="title"
+              id="title"
               onChange={(e) => handleExperienceChange(experience.id, e)}
             />
           </label>
-          <label htmlFor="location">
+          <label htmlFor="expLocation">
             Location:
             <input
               type="text"
               value={experience.location}
               name="location"
+              id="expLocation"
               onChange={(e) => handleExperienceChange(experience.id, e)}
             />
           </label>
@@ -59,6 +61,7 @@ function Experience({ experienceData, setExperienceData }) {
               type="text"
               value={experience.description}
               name="description"
+              id="description"
               onChange={(e) => handleExperienceChange(experience.id, e)}
             />
           </label>
@@ -68,6 +71,7 @@ function Experience({ experienceData, setExperienceData }) {
               type="date"
               value={experience.start}
               name="start"
+              id="start"
               onChange={(e) => handleExperienceChange(experience.id, e)}
             />
           </label>
@@ -77,6 +81,7 @@ function Experience({ experienceData, setExperienceData }) {
               type="date"
               value={experience.end}
               name="end"
+              id="end"
               onChange={(e) => handleExperienceChange(experience.id, e)}
             />
           </label>
@@ -92,7 +97,7 @@ function Experience({ experienceData, setExperienceData }) {
       <button type="button" onClick={addExperience} className="addButton">
         Add Experience
       </button>
-      <hr/>
+      <hr />
     </>
   );
 }
