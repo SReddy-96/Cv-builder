@@ -2,3 +2,9 @@
   margin: 2rem;
   text-align: center;
 }
+
+@media print {
+  .header {
+    display: none;
+  }
+}

@@ -2,7 +2,7 @@ import "../styles/output.css";
 
 function Output({ general, education, experience }) {
   return (
-    <div className="outputWrapper">
+    <div id="outputWrapper">
       <div id="general">
         <h1>{general.name}</h1>
         <b id="generalLocation">{general.location}</b>
@@ -47,7 +47,9 @@ function Output({ general, education, experience }) {
             {exp.title} - <i>{exp.location}</i>
           </b>
           <p>{exp.description}</p>
-          <p>{exp.start} - {exp.end}</p>
+          <p>
+            {exp.start} - {exp.end}
+          </p>
           <br />
         </div>
       ))}

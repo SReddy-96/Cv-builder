@@ -35,7 +35,7 @@ function App() {
 
   return (
     <>
-      <Header />
+      <Header/>
       <div className="main">
         <FormWrapper
           generalData={general}

@@ -97,7 +97,6 @@ function Experience({ experienceData, setExperienceData }) {
       <button type="button" onClick={addExperience} className="addButton">
         Add Experience
       </button>
-      <hr />
     </>
   );
 }

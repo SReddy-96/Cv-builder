@@ -17,6 +17,7 @@ body {
   min-height: 100vh;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  background: rgb(240, 240, 240);
 }
 
 h1 {
@@ -82,4 +83,11 @@ h6 {
 #root,
 #__next {
   isolation: isolate;
+}
+
+@media print {
+  body {
+    margin: 0;
+    padding: 0;
+  }
 }
