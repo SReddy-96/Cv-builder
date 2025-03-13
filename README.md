@@ -35,6 +35,7 @@ Project Highlights:
 - Using `useState` and becoming more familiar with how to implement into the app.
 - How to add CSS styling to print.
 - Passing through props effectively.
+- Organising a React app effectively.
 
 ## Technologies Used:
 
