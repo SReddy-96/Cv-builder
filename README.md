@@ -3,6 +3,33 @@
 ## Summary
 This Project is to create a React app that lets the users input their data and using `useState` be bale to keep track of the import and produce a CV in HTML form.
 
+## Model:
+
+### Index
+|  Desktop    | Mobile    |
+|-------------|-----------|
+| |||
+
+## Project Highlights:
+
+* 
+
+
+## Challenges Overcome:
+
+
+## New Skills Acquired:
+
+
+## Technologies Used:
+
+* HTML
+* CSS
+* JavaScript
+* React
+* Vite
+
+
 ## Notes
 
 Wanting to keep track of the state inside the App.jsx so the whole app can access the data via props
